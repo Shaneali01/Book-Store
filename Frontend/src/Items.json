@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "category": "Classic",
+        "price": 230,
+        "image": "https://www.hachettebookgroup.com/wp-content/uploads/2020/06/9780762498130-3.jpg?w=640"
+    },
+    {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "category": "Dystopian",
+        "price": 500,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-sKR9hoPicEw9yAjEndYymfhxtS2VyODGg&s"
+    },
+    {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "category": "Classic",
+        "price": 300,
+        "image": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "category": "Classic",
+        "price": 0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNQOqNz5BNMTGXMVS82T6p6M4KekaMLnicyw&s"
+    },
+    {
+        "id": 5,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "category": "Fiction",
+        "price": 450,
+        "image": "https://cdn.britannica.com/94/181394-050-2F76F7EE/Reproduction-cover-edition-The-Catcher-in-the.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "category": "Dystopian",
+        "price": 650,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2tl_v6-TVepJgFrB_tj0iAHU4V1hTaMJAQ&s"
+    },
+    {
+        "id": 7,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "category": "Fantasy",
+        "price": 520,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzXU4b9jA75WuJa_gKsQ8aNf66Jk-4IkW4ng&s"
+    },
+    {
+        "id": 8,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "category": "Dystopian",
+        "price": 250,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyv0jqJJvxrEMr_tImR5rVrRn25IOvQoB0JQ&s"
+    },
+    {
+        "id": 9,
+        "title": "Dorian Gray",
+        "author": "Oscar Wilde",
+        "category": "Classic",
+        "price": 300,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxifBmGOAQYAnxZyW3PyswxCiDGH4fFIaVA&s"
+    },
+    {
+        "id": 10,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "category": "Classic",
+        "price": 320,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTkzMjcwNTQyNV5BMl5BanBnXkFtZTcwMzY2OTEwNA@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+        "id": 11,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "category": "Historical Fiction",
+        "price": 540,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPBSyg4dSaJC5OITr5B28Hv5iZDq6d6Nt6Xw&s"
+    },
+    {
+        "id": 12,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "category": "Epic Poetry",
+        "price": 640,
+        "image": "https://example.com/images/the-odyssey.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "category": "Classic",
+        "price": 360,
+        "image": "https://example.com/images/crime-and-punishment.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "category": "Horror",
+        "price": 250,
+        "image": "https://example.com/images/frankenstein.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "category": "Classic",
+        "price": 550,
+        "image": "https://example.com/images/wuthering-heights.jpg"
+    }, {
+        "id": 16,
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "category": "Horror",
+        "price": 0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSezL2RvrmyVvOibZBKpwWhlzPhTEDXgYjo4w&s"
+    },
+    {
+        "id": 17,
+        "title": "Alice's Adventures",
+        "author": "Lewis Carroll",
+        "category": "Fantasy",
+        "price": 0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPph86AeIkIS4C7phCMLkQrQZDIOXh69YEUA&s"
+    },
+    {
+        "id": 18,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "category": "Classic",
+        "price": 0,
+        "image": "https://covers.storytel.com/jpg-640/9782378078270.6c30376e-be65-4136-bb0c-06776eaa39cf?optimize=high&quality=70&width=600"
+    },
+    {
+        "id": 19,
+        "title": "Sherlock Holmes",
+        "author": "Arthur Conan Doyle",
+        "category": "Mystery",
+        "price": 0,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFuzfSKKswKwXxnIKIQhTiLO9EdhQPcNNFw&s"
+    },
+    {
+        "id": 20,
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "category": "Fiction",
+        "price": 0,
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1646444605i/485894.jpg"
+    }
+]

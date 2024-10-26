@@ -6,6 +6,7 @@ import { useCart } from 'react-use-cart';
 import Cart from './Cart';
 import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
+import { BACKEND_URl } from '../utility';
 
 const MyCarousel = () => {
   const { totalUniqueItems } = useCart(); // Access cart data
@@ -32,7 +33,7 @@ const MyCarousel = () => {
   };
   useEffect(()=>{
     async function getdata(){
-      const response=await axios.get('http://localhost:8000/book/free');
+      const response=await axios.get(`${BACKEND_URl}/book/free`);
       console.log(response.data)
       setitems(response.data)
     }

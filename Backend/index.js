@@ -10,7 +10,7 @@ const port = process.env.PORT
 app.use(cors());
 app.use(express.json())
 app.use(cors({
-  origin: 'http://localhost:5173',  // Specify the origin of your frontend
+  origin: process.env.FRONTEND_URL,  // Specify the origin of your frontend
   credentials: true,                 // Allow credentials (cookies, authorization headers, etc.)
 }));
 mongoose.connect(process.env.MONGO_URL)

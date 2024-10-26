@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify';
 import { useCart } from 'react-use-cart';
+import { BACKEND_URl } from './utility';
 
 const Page = () => {
     const { addItem } = useCart();
@@ -13,10 +14,11 @@ const Page = () => {
       async function getData() {
         const token = localStorage.getItem('token'); 
         try {
-          const response = await axios.get('http://localhost:8000/book/paid', {
+          const response = await axios.get(`${BACKEND_URl}/book/paid`, {
             headers: {
               Authorization: `Bearer ${token}` 
-            }
+            },
+            withCredentials:true
           });
           if (response.data.message === 'USER NOT AUTHENTICATED') {
             setUnauthenticated(true); 

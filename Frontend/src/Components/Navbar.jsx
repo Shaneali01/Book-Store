@@ -8,6 +8,7 @@ import axios from 'axios'
 import { toast ,ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { useCart } from "react-use-cart";
+import { BACKEND_URl } from "../utility";
 
 const Navbar = () => {
   const navigate=useNavigate();
@@ -24,7 +25,7 @@ const Navbar = () => {
     formState: { errors },reset
   } = useForm();
   const onSubmit = async (data) => {
-    const response=await axios.post('http://localhost:8000/login',data);
+    const response=await axios.post(`${BACKEND_URl}/login`,data);
     console.log(response.data)
     if(response.data.message==='USER DONT EXIST WITH THIS EMAIL' || response.data.message==='WRONG PASSWORD'){
       return alert(response.data.message)

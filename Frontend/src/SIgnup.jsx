@@ -6,6 +6,7 @@ import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {useNavigate} from 'react-router-dom'
+import { BACKEND_URl } from "./utility";
 
 const SIgnup = () => {
   const navigate=useNavigate();
@@ -16,7 +17,7 @@ const SIgnup = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = async(data) => {
-    const response=await axios.post('http://localhost:8000/signup',data);
+    const response=await axios.post(`${BACKEND_URl}/signup`,data);
     if(response.data.message==='EMAIL ALREADY EXISTS'){
       return toast.warning(response.data.message)
     }

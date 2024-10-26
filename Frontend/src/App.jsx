@@ -1,5 +1,5 @@
 import Navbar from './Components/Navbar'
-import Footer from './Components/footer'
+import Footer from './Components/Footer'
 import Home from './Navitems/Home'
 import About from './Navitems/About'
 import Course from './Navitems/Course'

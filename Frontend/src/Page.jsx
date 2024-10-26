@@ -18,7 +18,6 @@ const Page = () => {
             headers: {
               Authorization: `Bearer ${token}` 
             },
-            withCredentials:true
           });
           if (response.data.message === 'USER NOT AUTHENTICATED') {
             setUnauthenticated(true); 

@@ -271,9 +271,9 @@ const Navbar = () => {
                     </div>
 
                    {loading ?  <button className="bg-violet-500 text-white font-bold text-md p-2 rounded-xl hover:bg-violet-600">
-                      Login
+                      Loggin In ...
                     </button>:  <button className="bg-violet-500 text-white font-bold text-md p-2 rounded-xl hover:bg-violet-600">
-                      Loggin In....
+                      Login
                     </button>}
                   </form>
                   <form method="dialog">

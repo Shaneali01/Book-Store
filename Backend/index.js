@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 app.get('/ping', (req, res) => {
-  res.status("WORKING");
+  res.send("WORKING");
 });
 app.use('/book',bookroute)
 app.use('/',signuprouter)

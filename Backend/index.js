@@ -7,7 +7,6 @@ const signuprouter=require('./Routes/User')
 const cors=require('cors')
 dotenv.config()
 const port = process.env.PORT
-app.use(cors());
 app.use(express.json())
 app.use(cors({
   origin: process.env.FRONTEND_URL,  // Specify the origin of your frontend
